@@ -15,17 +15,6 @@ npm run build     # genera la versión de producción en /dist
 npm run preview   # sirve /dist localmente para revisar el build final
 ```
 
-## Publicarlo en GitHub Pages
-
-1. Sube esta carpeta a un repositorio nuevo en GitHub (por ejemplo `joyas-criollas-redesign`).
-2. En el repositorio: **Settings → Pages → Build and deployment → Source**, selecciona
-   **GitHub Actions**.
-3. Haz push a la rama `main`. El workflow en `.github/workflows/deploy.yml` construye el sitio
-   y lo publica automáticamente en `https://<tu-usuario>.github.io/<nombre-del-repo>/`.
-
-No hace falta tocar nada más: el workflow arma la ruta base (`--base=/nombre-del-repo/`)
-usando el nombre real del repositorio.
-
 ## Estructura
 
 ```
